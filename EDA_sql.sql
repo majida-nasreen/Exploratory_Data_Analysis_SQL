@@ -1,10 +1,4 @@
-## Exploratory Data analyze
-
-
-select * from layoffs;
-create table layoffs_staging3 like layoffs;
-select * from layoffs_staging3;
-insert layoffs_staging3 select * from layoffs;
+## Exploratory Data analysis
 
  
 select * from layoffs_staging3;
